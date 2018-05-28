@@ -1,0 +1,68 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "google"],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },  
+  "globals": {
+    "chrome": true,
+    "rebase": true,
+    "fb": true,
+    "vk": true
+  },
+  "rules": {
+    "max-len": [2, {
+      "code": 300,
+      "ignoreUrls": true,
+      "ignoreTrailingComments": true
+    }],
+    "require-jsdoc": 0,
+    "valid-jsdoc": [2, {
+      "requireParamDescription": false,
+      "requireReturn": false,
+      "requireReturnDescription": false,
+      "requireReturnType": false,
+      "prefer": {
+        "returns": "returns"
+      }
+    }],
+    "indent": 0,
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "comma-dangle": [2, "never"],
+    "eol-last": 0,
+    "func-call-spacing": 0,
+    "space-before-function-paren": 0,
+    "object-curly-spacing": [2, "always"],
+    "one-var": 0,
+    "camelcase": 0,
+    "no-console": [2, {
+      "allow": [
+        "warn",
+        "error",
+        "info"
+      ]
+    }],
+    "arrow-parens": [2, "as-needed"],
+    "linebreak-style": 0,
+    "no-invalid-this": 0,
+    "no-unused-vars": [2, {
+      "varsIgnorePattern": "Ctrl|Service"
+    }],
+    "no-case-declarations": 0,
+    "react/prop-types": 0,
+    "react/no-find-dom-node": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "jsx": true
+    }
+  }
+}
