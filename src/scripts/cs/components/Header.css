@@ -1,0 +1,16 @@
+.header{
+    display: inline-flex;
+    background-color: #34495e;
+    color: white;
+}
+
+.header > span {
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    background-color: #E0E0E0;
+}

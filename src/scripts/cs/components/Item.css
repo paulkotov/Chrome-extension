@@ -1,0 +1,24 @@
+.view{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.view .Book-info{
+    display:  block;
+    text-align: center;
+}
+
+.view label{
+    position: relative;
+    text-align: center;
+}
+
+.view .toogle{
+       display:  inline-block; 
+}
+
+.edit{
+    display: inline-block;
+    border-left-style: groove;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-color: beige;
+
+}
